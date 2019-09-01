@@ -2,22 +2,21 @@
   "basics": {
     "name": "Frendy Lio Can",
     "label": "Chinese-Peruvian Software Engineer Enthusiast",
-    "picture": "https://yourfrendyfriend.github.io/images/Profile_Picture.PNG",
+    "picture": "https://frendylio.github.io/images/Profile_Picture.PNG",
     "email": "frendy@hawaii.edu",
-    "resume" : "downloads/MichaelMangrobangOnlineResume.pdf",
     "phone": "808-256-1848",
-    "website": "https://yourfrendyfriend.github.io",
+    "website": "https://frendylio.github.io",
     "summary": "This is still under construction~~ Ola! I am Frendy and I am an Electrical Engineer. I am interested in Artificial Intelligent as well as Cyber Security.",
     "profiles": [
       {
         "network": "github",
-        "username": "yourfrendyfriend",
-        "url": "https://github.com/yourfrendyfriend"
+        "username": "frendylio",
+        "url": "https://github.com/frendylio"
       },
       {
         "network": "linkedin",
-        "username": "yourfrendyfriend",
-        "url": "https://www.linkedin.com/in/yourfrendyfriend/"
+        "username": "frendylio",
+        "url": "https://www.linkedin.com/in/frendylio/"
       }
     ]
   },
