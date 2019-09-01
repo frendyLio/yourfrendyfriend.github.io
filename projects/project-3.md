@@ -27,8 +27,8 @@ A CanSat is an annual student design-build-launch competition for space-related 
 The primary role that I had during the research and design phase of the project was as the lead mechanical designer. Our group had 2 main designs, the Apollo and the Comet Layout. A brief description of the design is shown in the images below.
 
 <p align="center">
-  <img class = "ui image " width="460" height="300" src="../images/Design_1.png">
-  <img class = "ui image " width="460" height="300" src="../images/Design_2.png">
+  <img class = "ui image " width="460" height="300" src="../images/Design_1.PNG">
+  <img class = "ui image " width="460" height="300" src="../images/Design_2.PNG">
 </p>
 
 <h1>
