@@ -5,8 +5,8 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
-<div class="nonprintable">
-  <nav class="ui stackable menu">
+<div style="position: relative; z-index: 3" class="nonprintable">
+  <nav  class="ui stackable menu">
     <a href="{{ site.baseurl}}/" class="brand item">
       <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"><span>{{ site.data.bio.basics.name }}</span>
     </a>
@@ -19,10 +19,21 @@
 
    <!--  //For Resume code -->
     <a 
+      href="{{ site.baseurl }}/resume" 
+      class=" {% if include.active == "resume" %} active {% endif %} item">Resume 
+    </a>
+
+    <!--
+    <a 
       href="{{ site.baseurl }}/resume/FrendyLioOnlineResume.pdf"
       target="_blank" 
       class="item">Resume
     </a>
+
+ -->
+   
+
+
   </nav>
 </div>
 

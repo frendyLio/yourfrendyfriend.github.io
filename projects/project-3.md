@@ -1,61 +1,39 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/blueshirts_1.PNG
+title: CANSAT
+permalink: projects/CANSAT
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-04-12
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Rocket
+  - Lead Mechanical Designer
+summary: Participated in CanSat 2018. My team, Blue Shirts Don't Die placed top 85 in this international competition.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="/images/CanSat-Logo-2018.jpg">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+<h1>
+  Project description:
+</h1>
+As part of a year-long competition with a group of 7 pre-engineering students, we had a task to research, design, develop, and simulate a space CanSat entering a planetary atmosphere. 
 
-To give you a flavor of the game, here is an excerpt from one run:
+A CanSat is an annual student design-build-launch competition for space-related topics. For the CanSat 2018, my team and I needed to simulate a space CanSat entering the planetary atmosphere where the CanSat shall carry a single large hen's egg that must survive all portions of the simulation.
 
-<hr>
+<h1>
+ Role:
+</h1>
+The primary role that I had during the research and design phase of the project was as the lead mechanical designer. Our group had 2 main designs, the Apollo and the Comet Layout. A brief description of the design is shown in the images below.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+<p align="center">
+  <img class = "ui image " width="460" height="300" src="../images/Design_1.png">
+  <img class = "ui image " width="460" height="300" src="../images/Design_2.png">
+</p>
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+<h1>
+ Milestone:
+</h1>
+A major milestone for the project was the Preliminary Design Review (PDR). During the PDR we needed to defend our ideas as a team to a number of judges via teleconference. This includes defending our ideas about the system (design of our device), electrical (sensors such as air pressure and temperature) and mechanical (release mechanisms, failsafe mechanisms) overview. It also included material considerations and budget.
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+My team and I placed 85 in this international competition on the PDR stage.

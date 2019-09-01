@@ -34,5 +34,31 @@
           src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
+<!-- Show Mobile 
+https://blog.hubspot.com/marketing/site-content-only-mobile-viewers-can-see-ht
+ -->
+  <style type="text/css";> 
+    .mobileShow {display: none;} 
+  
+    /* Smartphone Portrait and Landscape */ 
+    @media only screen 
+      and (min-device-width : 320px) 
+      and (max-device-width : 480px){ 
+        .mobileShow {display: inline;}
+    }
+  </style>
+
+<!-- Hide Mobile -->
+<style type="text/css">
+  .mobileHide { display: inline; } 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+     .mobileHide { display: none;}
+  }
+</style>
+
 
 </head>

@@ -5,7 +5,17 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
-<div style="height: 100%; margin-top: -75px" class="ui middle aligned grid ">
+<div style=
+  "
+    height: 100%; 
+    margin-top: -75px;
+    background-image: url({{ site.baseurl }}/images/Background_1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  "
+  class="ui middle aligned grid ">
 
   <div class="column">
 
@@ -46,8 +56,8 @@
         </a>
         <!-- Cuando haces click  en el button del homepage -->
         <a 
-          href="{{ site.baseurl }}/resume/FrendyLioOnlineResume.pdf" target="_blank">
-          <button class="ui basic button">{{ site.bio-page-label }}</button>
+          href="{{ site.baseurl }}/resume/">
+          <button class="ui basic button">Resume </button>
         </a>
       </div>
     </div>

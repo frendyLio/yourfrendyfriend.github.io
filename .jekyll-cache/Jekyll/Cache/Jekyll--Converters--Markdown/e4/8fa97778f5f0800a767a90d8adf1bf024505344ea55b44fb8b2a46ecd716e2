@@ -1,0 +1,20 @@
+I"<h1>
+  At the begining:
+</h1>
+<p>My team and I started with mainly on learning the basic of Kali Linux. We were tasked with reading through a pre-prepared book teaching the basics of wireless communications and the various protocols associated with the security of these devices.</p>
+
+<p align="center">
+  <img class="ui small image " width="460" height="300" src="../images/kali.png" />
+</p>
+
+<p>After I was confident on my Kali Linux skills. I decided to hack my own computer using a raspberry pi and bluetooth. The process were quite simple, first of all, I needed to install and set up Kali Linux into the raspberry pi. After this, I needed to connect to my IP address and enable bluetooth on the raspberry pi. Finally, using my own computer I will connect to the bluetooth from the raspberry pi and my computer screen would display a message, in this case, “You are being hacked.”</p>
+
+<p align="center">
+  <img class="ui  image " width="460" height="300" src="../images/hack.png" />
+</p>
+
+<h1>
+  What is next?
+</h1>
+
+:ET

@@ -1,0 +1,33 @@
+I"�<div class="ui small rounded images">
+  <img class="ui image" src="../images/micromouse-robot.png" />
+  <img class="ui image" src="../images/micromouse-robot-2.jpg" />
+  <img class="ui image" src="../images/micromouse.jpg" />
+  <img class="ui image" src="../images/micromouse-circuit.png" />
+</div>
+
+<h1>
+What it does
+
+</h1>
+<p>The Kumu system incorporates a pair of two components: Kumu App for data collection, and Kumu Web for data visualization.</p>
+
+<p>Kumu App
+Kumu App is a mobile Android app that allows users such as botanists to collect rare plant data on site from anywhere at any time. It streamlines the plant data collection process, incorporating expandable and collapsible fields, auto-completion, draft saving, and automatic data uploading functionality into the app’s data forms. Data collection with Kumu App is done in an effective step-by-step process that also allows users to take up to ten geotagged photos of the plant to attach to the form. Forms are stored locally and automatically synced once an internet connection is detected to allow users to collect plant data regardless of whether there is an internet connection. We kept this in mind for botanists who often travel to remote sites to collect data on plants. Finally, users can also view a map on their app that displays all locations of previously collected data, so that they can easily return to these sites if needed.</p>
+
+<p>Kumu Web
+Kumu Web is a public website that displays real-time plant data collected throughout the state to show plant revitalization progress. For effective and measurable data visualization, Kumu Web displays a map that pinpoints the locations of all forms collected by Kumu App users. Each plant location point on the map displays the plant’s name, data, and a gallery of images taken on site. For added insight, the site displays measurable metrics by including filters that allow users to view specific subsets of plants based on endangerment status, plant maturity, and other identifiers. Designed with the public in mind, Kumu Web clearly displays measurable insights on the state’s progress towards native plant revitalization.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">byte</span> <span class="nx">ADCRead</span><span class="p">(</span><span class="nx">byte</span> <span class="nx">ch</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="nx">word</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="nx">ADC1SC1</span> <span class="o">=</span> <span class="nx">ch</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="nx">ADC1SC1_COCO</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>   <span class="c1">// wait until ADC conversion is completed   </span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">ADC1RL</span><span class="p">;</span>  <span class="c1">// lower 8-bit value out of 10-bit data from the ADC</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can learn more at the <a href="http://www-ee.eng.hawaii.edu/~mmouse/about.html">UH Micromouse Website</a>.</p>
+
+:ET

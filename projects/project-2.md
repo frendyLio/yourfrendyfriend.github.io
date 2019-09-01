@@ -1,25 +1,42 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/kali.jpg
+title: Kali Linux
+permalink: projects/kalilinux
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-08-11
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Ethical Hacking
+  - Kali Linux
+summary: Learnt about Ethical Hacking With Kali Linux.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+<h1>
+  At the begining:
+</h1>
+My team and I started with mainly on learning the basic of Kali Linux. We were tasked with reading through a pre-prepared book teaching the basics of wireless communications and the various protocols associated with the security of these devices.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+<p align="center">
+  <img class = "ui image " width="460" height="300" src="../images/kali.png">
+</p>
+
+After I was confident in my Kali Linux skills. I decided to hack my own computer using a raspberry pi and Bluetooth. The process was quite simple, first of all, I needed to install and set up Kali Linux into the raspberry pi. After this, I needed to connect to my IP address and enable Bluetooth on the raspberry pi. Finally, using my own computer I will connect to the Bluetooth from the raspberry pi and my computer screen would display a message, in this case, "You are being hacked." 
+
+<p align="center">
+  <img class = "ui image " width="460" height="300" src="../images/hack.png">
+</p>
+
+
+<h1>
+  What is next?
+</h1>
+
+Currently, I am self-learning audipilot. Ardupilot is an open-source autopilot software available. it is able to control any vehicle system, being some of them, airplanes, drones, submarines and so on. After learning this, the idea is to be able to intercept the signal of a vehicle system with the hope of either, controlling it or change its directory.
+
+<p align="center">
+  <img class = "ui image " width="460" height="300" src="../images/aurd_pilot.jpg">
+</p>
+
