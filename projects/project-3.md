@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/blueshirts_1.PNG
+image: images/blueshirts_1.png
 title: CANSAT
 permalink: projects/CANSAT
 # All dates must be YYYY-MM-DD format!
