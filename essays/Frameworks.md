@@ -9,7 +9,7 @@ labels:
 ---
 <div>
   <a>
-    <img class="ui fluid image" src="../images/Frameworks/Semantic.png">
+    <img class="ui fluid image" src="../images/Frameworks/Semantic.PNG">
   </a>
   <p class="quotes">
   <br>
