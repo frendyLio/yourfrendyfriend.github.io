@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\livef\\Desktop\\EE 362"
+		},
+		{
+			"name": "SSH FS - wiliki",
+			"uri": "ssh://wiliki/"
+		}
+	],
+	"settings": {
+		"sshfs.configs": [
+			{
+				"host": "wiliki.eng.hawaii.edu",
+				"label": "wiliki",
+				"name": "wiliki",
+				"password": "Pringlesoriginas1@",
+				"root": "/users8/students/frendy",
+				"username": "frendy"
+			}
+		]
+	}
+}

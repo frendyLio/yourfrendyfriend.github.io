@@ -42,3 +42,19 @@ body {
   margin-bottom: 0px !important;
   padding-bottom: 0px !important;
 }
+
+//////////////////
+//For essays
+//////////////////
+.paragraph{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+// for Frameworks
+.quotes{
+  text-align: center;
+  text-justify: inter-word; 
+  font-size: 20px;
+  font-weight: bold;
+}
