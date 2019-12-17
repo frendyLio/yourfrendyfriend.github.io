@@ -5,13 +5,13 @@ image: images/UHber/UHber_Logo.png
 title: UHber
 permalink: projects/uhber
 # All dates must be YYYY-MM-DD format!
-date: 2018-11-10
+date: 2019-12-18
 labels:
   - UHber
 summary: UHber, an app to provide UH students trusty carpool to and from school.
 ---
 
-<div class="ui small rounded images" align="center">
+<div class="ui large rounded images" align="center">
   <img class="ui image" src="../images/UHber/UHber_Landing.png">
 </div>
 

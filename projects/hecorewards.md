@@ -5,7 +5,7 @@ image: images/heco_rewards/heco_logo.PNG
 title: Heco Rewards
 permalink: projects/hecorewards
 # All dates must be YYYY-MM-DD format!
-date: 2018-11-10
+date: 2019-11-26
 labels:
   - HACC
   - Raspberry Pi
@@ -28,7 +28,7 @@ One of the core issues with the challenge is being able to determine if there ar
 ### Solution
 From the historical data, we identify if there are issues occurring with the payment system as well as the congestion of the charging station. The system first performs data validation such as verifying if the amount paid matches the duration and amount of energy drawn during the charging session. Combined with Machine Learning, we can forecast the expected amount of vehicles that will visit a charging station, the overall amount of energy that will be provided throughout the day, and the number of expected errors that will occur at a charging station.
 
-<div class="ui small rounded images" align="center">
+<div class="ui large rounded images" align="center">
   <img class="ui image" src="../images/heco_rewards/heco_forecasting.PNG">
 </div>
 
@@ -38,7 +38,7 @@ One of the core issues with the challenge is a lack of information about what's 
 ### Solution
 To remedy this, we have created a mobile application that is designed to allow users to report if they have had a successful charging session or alternatively report any issues that may have arisen. By allowing users to report incidents from their charging sessions, HECO is able to obtain immediate information about problems with a charging station that are otherwise unobtainable or are left to predictive forecasting by our system in the back-end. Through user reporting, our system obtains concrete information that there is a problem at the charging station that can be then be further verified by a HECO technician. The incentive of the mobile application for users is by gamifying charging sessions for users to obtain points which they can then redeem for rewards such as free credits on their next charging session. 
 
-<div class="ui small rounded images" align="center">
+<div class="ui large rounded images" align="center">
   <img class="ui image" src="../images/heco_rewards/heco_mobile.PNG">
 </div>
 
@@ -49,7 +49,7 @@ One of the core issues with the challenge is a lack of information about who is 
 ### Solution
 To solve these problems, we have prototyped a license plate reader using a Raspberry PI mounted with an Arduino Camera. Whenever a new vehicle appears in front of the camera, a picture is taken of the vehicle's license plate. The Raspberry PI then utilizes OpenCV to extract the characters of the license plate in the image and sends it to our database in the back-end in real-time. While there is no car or if it is the same car charging, the Raspberry PI will not send the data to the database. The license plate of each vehicle is registered with our HECO Rewards application ensuring that users who send reports for a particular charging station were actually using them.
 
-<div class="ui small rounded images" align="center">
+<div class="ui large rounded images" align="center">
   <img class="ui image" src="../images/heco_rewards/heco_hardware.PNG">
 </div>
 
